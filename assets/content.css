@@ -27,7 +27,6 @@ li
     background-color: rgb(240, 223, 145);
     color: rgb(90, 40, 15);
     align-items: center;
-    height: 1em;
     padding: 1em;
     border-radius: 2em;
 }
@@ -54,7 +53,7 @@ li
     justify-content: center;
     color: rgb(90, 40, 15);
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 2em;
 }
 img
 {
@@ -133,7 +132,7 @@ button
     margin-right: auto;
     margin-bottom: 10%;
 }
-@media screen and (min-width:820px)
+@media screen and (max-width:820px)
 {
 
 .card
