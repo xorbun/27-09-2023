@@ -6,7 +6,7 @@ ul
     margin: 0;
     padding: 0;
     list-style-type: none;
-    align-content: center;
+    align-items: center;
     background-color: rgb(250, 247, 229);
     padding: 1em;
     border-radius: 4em;
@@ -17,15 +17,13 @@ ul
     display: flex;
     padding-right: 4em;
     height: 3em;
-    justify-content: baseline;
+    align-items: center;
 }
 li
 {   
-    
     background-color: rgb(240, 223, 145);
     color: rgb(90, 40, 15);
-    
-
+    align-items: center;
     height: 1em;
     padding: 1em;
     border-radius: 2em;
