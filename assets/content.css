@@ -1,0 +1,89 @@
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-content: center;
+    background-color: rgb(250, 247, 229);
+    padding: 1em;
+    border-radius: 4em;
+}
+.shop
+{
+    width: 4%;
+    display: flex;
+    padding-right: 4em;
+    height: 3em;
+    justify-content: baseline;
+}
+li
+{   
+    
+    background-color: rgb(240, 223, 145);
+    color: rgb(90, 40, 15);
+    
+
+    height: 1em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.container
+{
+    margin-top: 10%;
+}
+.card
+{
+    background-color: rgb(250, 247, 229);
+    border-radius: 2em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(90, 40, 15);
+}
+img
+{
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    width: 100%;
+  
+    
+}
+.description
+{
+    display: flex;
+    
+}
+h1
+{
+    margin-bottom: 0em;
+    margin-left: 10px;
+}
+p
+{
+    margin-left: 10px;
+    margin-top: 0em;
+}
+span
+{
+    align-self: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+button
+{
+    display: flex;
+    align-self: center;
+    width: 4em;
+    background-color: rgb(240, 223, 145);
+    padding:0.5em ;
+    margin: 1em;
+    border-radius: 1em;
+    width: 7em;
+    font-size: 1em;
+    
+}
