@@ -133,3 +133,20 @@ button
     margin-right: auto;
     margin-bottom: 10%;
 }
+@media screen and (min-width:820px)
+{
+
+.card
+{
+    background-color: rgb(250, 247, 229);
+    border-radius: 2em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(90, 40, 15);
+    margin-top: 2em;
+    margin-left: 4em;
+}
+
+}
