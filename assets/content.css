@@ -1,4 +1,7 @@
-
+body
+{
+    background-color: antiquewhite;
+}
 ul
 {
     display: flex;
@@ -28,7 +31,12 @@ li
     padding: 1em;
     border-radius: 2em;
 }
-
+.welcome
+{
+    text-align: center;
+    color: rgb(90, 40, 15);
+    
+}
 .container
 {
    
