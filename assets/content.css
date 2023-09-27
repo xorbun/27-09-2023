@@ -31,7 +31,10 @@ li
 
 .container
 {
-    margin-top: 10%;
+   
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .card
 {
@@ -42,6 +45,8 @@ li
     flex-direction: column;
     justify-content: center;
     color: rgb(90, 40, 15);
+    margin-top: 2em;
+    margin-left: 1em;
 }
 img
 {
@@ -84,4 +89,33 @@ button
     width: 7em;
     font-size: 1em;
     
+}
+.info
+
+{
+    background-color: rgb(250, 247, 229);
+    border-radius: 2em;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(90, 40, 15);
+    margin-top: 2em;
+    margin-left: 1em;
+}
+.title
+{
+    margin-bottom: 1em;
+    font-size: 100%;
+}
+.test
+{
+   margin-right: 1em;
+   font-size: 90%;
+}
+.article
+{
+    display: flex;
+    align-items: center;
+    border-radius: 0%;
 }
