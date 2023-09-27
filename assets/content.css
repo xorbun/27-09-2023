@@ -95,13 +95,13 @@ button
 {
     background-color: rgb(250, 247, 229);
     border-radius: 2em;
-    width: 300px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     color: rgb(90, 40, 15);
     margin-top: 2em;
-    margin-left: 1em;
+    margin-left: 25%
 }
 .title
 {
@@ -115,7 +115,13 @@ button
 }
 .article
 {
+    
     display: flex;
     align-items: center;
     border-radius: 0%;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
 }
